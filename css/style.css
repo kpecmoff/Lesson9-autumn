@@ -1,0 +1,58 @@
+@font-face {
+    font-family: "Lato";
+    src: url("../fonts/Lato-Regular.woff2") format("woff2"), url("../fonts/Lato-Regular.woff") format("woff");
+    font-display: swap;
+    font-weight: 400;
+    font-style: normal;
+}
+@font-face {
+    font-family: "Lato";
+    src: url("../fonts/Lato-Bold.woff2") format("woff2"), url("../fonts/Lato-Bold.woff") format("woff");
+    font-display: swap;
+    font-weight: 700;
+    font-style: normal;
+}
+@font-face {
+    font-family: "Lato";
+    src: url("../fonts/Lato-Black.woff2") format("woff2"), url("../fonts/Lato-Black.woff") format("woff");
+    font-display: swap;
+    font-weight: 900;
+    font-style: normal;
+}
+body {
+    font-family: "Lato";
+}
+[class*="__container"]{
+    max-width: 1200px;
+    margin: 0;
+    padding: 0;
+}
+[class*="__image"]{
+    max-width: 800px;
+    margin: 0 auto;
+}
+.main__container {
+}
+.footer {
+}
+.footer__link {
+    display: inline-block;
+    color: #ffffff;
+    
+    font-weight: 900;
+    padding: 5px;
+    margin-left: 40px;
+    margin: 0 0 30px 40px;
+    background: #B22222;
+    border-radius: 10px;
+    box-shadow: 0px 0px 7px 3px rgb(0, 0, 0);
+    outline-style: solid;
+    outline-color: grey;
+}
+.footer__link:active {
+    box-shadow: none;
+    padding: 4px;
+}
+
+.footer__link-item {
+}
